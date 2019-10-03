@@ -1,7 +1,7 @@
-let req = new XMLHttpRequest()
+let req = new XMLHttpRequest();
 
 req.onload = (e) => {
-    let cluster = JSON.parse(req.responseText)
+    let cluster = JSON.parse(req.responseText);
     console.log(cluster)
 };
 
