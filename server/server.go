@@ -6,7 +6,6 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/gobuffalo/packr/v2"
 	"github.com/gorilla/mux"
 
 	"github.com/adyatlov/bunxp/objects"
